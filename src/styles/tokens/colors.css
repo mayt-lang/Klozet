@@ -1,0 +1,46 @@
+:root {
+    --background:#E8D8C9;
+    --surface:#FCF3EA; /*fundo de card\painel*/
+    --surface-raised:#FBEFE4; /*camada a cima*/
+    --on-surface:#62371A;  /*texto principal*/
+    --on-surface-muted: #62371A;/*texto secundario*/
+    --outline:#766E68; /*bordas e divisores sutis*/
+/*----CORES DE MARCA ("primitivas")*/
+--primary: #A97540;/*ação principal*/
+--primary-second: #B39880;
+--primary-pressed:#a86c3e; /*para houver*/
+--on-primary:#362211;
+--secondary: #734C25; /*ações sociais*/
+--on-secondary:#502f16; 
+--accent:#A97441;  /*Destaque*/
+--on-accent:#f38e00;
+--success:#D3EABA;
+--on-success:#618D35;
+--warning:#FDE1BA;
+--on-warning:#754E27;
+--danger:#FDD3B6;
+--on-danger:#CC4E00;
+--wait-time:#DBF2F1;
+--on-wait-time:#365DFD;
+
+
+
+/*tokens semânticos */
+--text-heading: var(--on-surface);
+--text-body: var(--on-surface);
+--text-muted: var(--on-surface);
+--text-inverse: var(--on-surface);
+--text-link:var(--primary-pressed);
+--text-link-hover:var(var(--primary));
+--surface-page:var(--background);
+--surface-card:var(var(--surface));
+--surface-sunken:var(--background);
+--border-subtle:var(--outline);
+--border-default: var(--outline);
+--accent-primary: var(var(--primary));
+--accent-primary-hover:var(--primary-pressed);
+--accent-secondary:var(--accent-primary);
+--focus-ring:var(--);
+
+
+}
